@@ -1,6 +1,6 @@
 package adaptor;
 
-public class mediaAdapter implements mediaPlayer {
+class mediaAdapter implements mediaPlayer {
     AdvanceMediaplayer player=new AdvanceMediaplayer();
 
     public void play(String audiotype,String filename){

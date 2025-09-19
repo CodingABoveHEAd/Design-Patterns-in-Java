@@ -1,6 +1,6 @@
 package adaptor;
 
-public class audioPlayer implements mediaPlayer {
+ class audioPlayer implements mediaPlayer {
     mediaAdapter adapter;
     public void play(String audiotype,String fileName){
         if (audiotype.equalsIgnoreCase("mp3")) {

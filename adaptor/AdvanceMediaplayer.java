@@ -1,6 +1,6 @@
 package adaptor;
 
-public class AdvanceMediaplayer {
+ class AdvanceMediaplayer {
    public void playvlc(String fileName){
          System.out.println("Playing VLC file: " + fileName);
     }
